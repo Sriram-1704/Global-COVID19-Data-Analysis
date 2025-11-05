@@ -8,16 +8,16 @@ The goal is to clean, analyze, and visualize the datasets to uncover trends and 
 
 ## 🧰 Tools & Technologies
 - **Python** → Data cleaning and preprocessing  
-- **Pandas, NumPy** → Data manipulation and feature creation  
-- **Power BI** → Data visualization and interactive dashboard building  
-- **Excel** → Quick data validation and checks  
+- **Pandas, NumPy** → Data manipulation and metric creation  
+- **Power BI** → Interactive dashboards and visualization  
+- **Excel** → Quick data validation and review  
 
 ---
 
 ## 📂 Project Structure
 Global-COVID19-Data-Analysis/
 │
-├── covid_data_cleaning.py # Python script used for cleaning and preprocessing
+├── covid_data_cleaning.py # Python script for cleaning and preprocessing
 ├── Global_COVID19_Dashboard.pbix # Final Power BI dashboard
 │
 ├── Health Related Datasets/
@@ -26,39 +26,60 @@ Global-COVID19-Data-Analysis/
 │ │ ├── day_wise.csv
 │ │ ├── worldometer_data.csv
 │ │
-│ └── Cleaned Datasets/ # Cleaned data generated via Python script
+│ └── Cleaned Datasets/ # Cleaned data generated using Python
 │ ├── country_cleaned.csv
 │ ├── day_cleaned.csv
 │ ├── worldometer_cleaned.csv
-
+│
+├── images/ # Power BI dashboard screenshots
+│ ├── daily_trends.png
+│ ├── country_comparison.png
+│ ├── global_summary.png
 ---
 
 ## ⚙️ Data Cleaning Workflow
-Performed in **`covid_data_cleaning.py`** using Pandas:
+Performed using **`covid_data_cleaning.py`** with Pandas:
 1. Loaded raw Kaggle datasets  
 2. Dropped missing or inconsistent values  
 3. Renamed columns for uniformity  
-4. Created calculated columns:
+4. Created two calculated columns:
    - `recovery_rate = (recovered / confirmed) * 100`
    - `death_rate = (deaths / confirmed) * 100`
-5. Exported the cleaned datasets into a new folder for visualization  
+5. Exported cleaned CSVs into the *Cleaned Datasets* folder  
 
 ---
 
 ## 📊 Power BI Dashboard Overview
-Built a Power BI report (`Global_COVID19_Dashboard.pbix`) with three interactive pages:
-
-1. **Daily Trends** – Line chart of confirmed, deaths, and recoveries over time  
-2. **Country Comparison** – Top 10 countries and a world map visualization  
-3. **Global Summary** – KPI cards, bar & pie charts, and key insights  
+The Power BI report (`Global_COVID19_Dashboard.pbix`) includes **three interactive pages**.
 
 ---
 
-## 💡 Insights
-- The USA and Brazil reported the highest total confirmed cases  
-- Global average recovery rate is around **47%**  
-- Death rate declined steadily post-2021 due to improved healthcare and vaccinations  
-- Power BI dashboards provide a clear, interactive understanding of the pandemic trends  
+### 🩵 Page 1: Daily Trends
+Visualizes the daily progression of **confirmed**, **deaths**, and **recovered** cases over time.
+
+![Daily Trends Dashboard](images/daily_trends.png)
+
+---
+
+### 🩵 Page 2: Country Comparison
+Shows **Top 10 countries** with the highest confirmed cases, along with a **world map** for geographic visualization.
+
+![Country Comparison Dashboard](images/country_comparison.png)
+
+---
+
+### 🩵 Page 3: Global Summary
+Highlights overall statistics such as total confirmed, deaths, recovered, and global recovery/death rates using KPI cards and charts.
+
+![Global Summary Dashboard](images/global_summary.png)
+
+---
+
+## 💡 Key Insights
+- The USA and Brazil reported the highest confirmed cases globally.  
+- Global average recovery rate ≈ **47%**.  
+- Death rates steadily declined post-2021 due to improved healthcare and vaccinations.  
+- Power BI dashboards reveal clear global and regional pandemic patterns.  
 
 ---
 
@@ -67,6 +88,3 @@ Built a Power BI report (`Global_COVID19_Dashboard.pbix`) with three interactive
 _Data Analyst | Python | Power BI | SQL_  
 📧 [sriramsattiraju2003@gmail.com]  
 🔗 [https://www.linkedin.com/in/sri-ram-sattiraju-028349211]
-
----
-
