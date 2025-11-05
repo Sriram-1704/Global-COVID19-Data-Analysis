@@ -8,7 +8,7 @@ The goal is to clean, analyze, and visualize the datasets to uncover trends and 
 
 ## 🧰 Tools & Technologies
 - **Python** → Data cleaning and preprocessing  
-- **Pandas, NumPy** → Data manipulation and metric creation  
+- **Pandas** → Data manipulation  
 - **Power BI** → Interactive dashboards and visualization  
 - **Excel** → Quick data validation and review  
 
