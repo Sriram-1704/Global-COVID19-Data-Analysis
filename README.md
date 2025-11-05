@@ -17,25 +17,26 @@ The goal is to clean, analyze, and visualize the datasets to uncover trends and 
 ## 📂 Project Structure
 Global-COVID19-Data-Analysis/
 │
-├── covid_data_cleaning.py # Python script for cleaning and preprocessing
-├── Global_COVID19_Dashboard.pbix # Final Power BI dashboard
+├── Health Related Datasets/             # Contains both raw and cleaned CSV files
+│   ├── Raw Datasets/                    # Raw Kaggle datasets
+│   │   ├── country_wise_latest.csv
+│   │   ├── day_wise.csv
+│   │   └── worldometer_data.csv
+│   │
+│   └── Cleaned Datasets/                # Cleaned data generated using Python
+│       ├── country_cleaned.csv
+│       ├── day_cleaned.csv
+│       └── worldometer_cleaned.csv
 │
-├── Health Related Datasets/
-│ ├── Raw Datasets/ # Raw Kaggle datasets
-│ │ ├── country_wise_latest.csv
-│ │ ├── day_wise.csv
-│ │ ├── worldometer_data.csv
-│ │
-│ └── Cleaned Datasets/ # Cleaned data generated using Python
-│ ├── country_cleaned.csv
-│ ├── day_cleaned.csv
-│ ├── worldometer_cleaned.csv
+├── images/                              # Power BI dashboard screenshots
+│   ├── daily_trends.png
+│   ├── country_comparison.png
+│   └── global_summary.png
 │
-├── images/ # Power BI dashboard screenshots
-│ ├── daily_trends.png
-│ ├── country_comparison.png
-│ ├── global_summary.png
----
+├── covid_data_cleaning.py               # Python script for cleaning and preprocessing
+├── Global_COVID19_Dashboard.pbix        # Final Power BI dashboard file
+└── README.md                            # Project documentation
+
 
 ## ⚙️ Data Cleaning Workflow
 Performed using **`covid_data_cleaning.py`** with Pandas:
