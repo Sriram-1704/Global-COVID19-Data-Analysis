@@ -11,11 +11,11 @@ The goal is to clean, analyze, and visualize the datasets to uncover trends and 
 ## 🧰 Tools & Technologies
 
 - **Python** → Data cleaning and preprocessing
--   
+
 - **Pandas** → Data manipulation
-- 
+  
 - **Power BI** → Interactive dashboards and visualization
-- 
+  
 - **Excel** → Quick data validation and review  
 
 ---
@@ -66,18 +66,18 @@ Global-COVID19-Data-Analysis/
 Performed using **`covid_data_cleaning.py`** with Pandas:
 
 1. Loaded raw Kaggle datasets
-2. 
-3. Dropped missing or inconsistent values
-4. 
-5. Renamed columns for uniformity
-6. 
-7. Created two calculated columns:
+
+2. Dropped missing or inconsistent values
+ 
+3. Renamed columns for uniformity
+ 
+4. Created two calculated columns:
    
    - `recovery_rate = (recovered / confirmed) * 100`
-   - 
+     
    - `death_rate = (deaths / confirmed) * 100`
-   - 
-8. Exported cleaned CSVs into the *Cleaned Datasets* folder
+     
+5. Exported cleaned CSVs into the *Cleaned Datasets* folder
 
 ---
 
@@ -114,17 +114,21 @@ Highlights overall statistics such as total confirmed, deaths, recovered, and gl
 ## 💡 Key Insights
 
 - The USA and Brazil reported the highest confirmed cases globally.
-- 
+  
 - Global average recovery rate ≈ **47%**.
-- 
+  
 - Death rates steadily declined post-2021 due to improved healthcare and vaccinations.
-- 
+  
 - Power BI dashboards reveal clear global and regional pandemic patterns.  
 
 ---
 
 ## 🧑‍💻 Author
+
 **Sri Ram**  
-_Data Analyst | Python | Power BI | SQL_  
+
+_Data Analyst | Python | Power BI | SQL_ 
+
 📧 [sriramsattiraju2003@gmail.com]  
+
 🔗 [https://www.linkedin.com/in/sri-ram-sattiraju-028349211]
