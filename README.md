@@ -129,6 +129,8 @@ Highlights overall statistics such as total confirmed, deaths, recovered, and gl
 
 _Data Analyst | Python | Power BI | SQL_ 
 
-📧 [sriramsattiraju2003@gmail.com]  
+Email: sriramsattiraju2003@gmail.com
 
-🔗 [https://www.linkedin.com/in/sri-ram-sattiraju-028349211]
+GitHub: https://github.com/Sriram-1704
+
+LinkedIn: https://www.linkedin.com/in/sri-ram-sattiraju-028349211
